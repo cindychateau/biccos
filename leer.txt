@@ -1,0 +1,22 @@
+
+1-Para poder probar este ejemplo asegurate de tener node y npm intalado en tu computadora.
+
+2-Una vez intalados, dirigete a la raiz del proyecto y ejecuta "npm install"
+
+3-Para levantar el servidor ejecuta "npm run serve"
+
+4-si necesitas modificar algo levanta el servidor usando "npm run watch",
+esto iniciara un servicio que verifica continuamente si hay cambios en los archivos
+del proyecto y levantara el servidor de forma automatica sin que hagas nada.
+
+5-usa el endpoint http://localhost:3000/market_data para optener informacion del mercado de crypto
+tambien puedes pasar los parametros "symbol" o "id" para obtener informacion especifica de un "intrument"
+por ejemplo para "BTCMXN" puedes usar:
+http://localhost:3000/market_data?symbol=BTCMXN
+o bien
+http://localhost:3000/market_data?id=1
+
+
+NOTA: las credenciales y el puesto de escucha estan establecidad en el archivo "config.js"
+
+

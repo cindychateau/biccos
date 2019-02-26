@@ -1,0 +1,23 @@
+{
+  "name": "socket-to-rest-biccos",
+  "version": "1.0.0",
+  "description": "Ejemplo de como consumir un web socket via REST",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js",
+    "serve": "node server.js"
+  },
+  "author": "engell@biccos.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-basic-auth": "^1.1.4",
+    "express-validator": "^5.3.0",
+    "method-override": "^3.0.0",
+    "ws": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.0"
+  }
+}
